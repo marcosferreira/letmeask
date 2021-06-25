@@ -9,6 +9,7 @@ import logoSVG from '../assets/images/logo.svg';
 import deleteSVG from '../assets/images/delete.svg';
 import checkSVG from '../assets/images/check.svg';
 import answerSVG from '../assets/images/answer.svg';
+import emptyQuestionsSVG from '../assets/images/empty-questions.svg';
 
 import '../styles/room.scss';
 
@@ -98,6 +99,18 @@ export function AdminRoom() {
               </Question>
             );
           })}
+
+          {questions.length === 0 ? (
+            <div className="empty-questions">
+              <div className="content">
+                <img src={emptyQuestionsSVG} alt="Imagem de balões de perguntas" />
+                <p>Nenhuma pergunta por aqui...</p>
+                <small>Envie o código desta sala para seus amigos e comece a responder perguntas!</small>
+              </div>
+            </div>
+          ) : (
+            ''
+          )}
         </div>
       </main>
     </div>
