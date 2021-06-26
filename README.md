@@ -1,4 +1,4 @@
-# Letmeask - NLW/Together
+# Letmeask
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -12,7 +12,7 @@
 
 ### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto foi desenvolvido na NLW/Together, ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Responsividade
 - [ ] Tema dark
@@ -65,4 +65,4 @@ Ao criar seu banco de dados, será gerado no console do firebase, algumas config
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#Letmeask-NLW/Together)<br>
