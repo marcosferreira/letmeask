@@ -38,7 +38,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o Letmeask , siga estas etapas:
 
-Linux e macOS:
+Windows, Linux e macOS:
 ```
 git clone https://github.com/marcosferreira/letmeask
 ```
@@ -48,20 +48,6 @@ cd letmeask/
 ```
 yarn install
 ```
-
-
-Windows:
-
-```
-git clone https://github.com/marcosferreira/letmeask
-```
-```
-cd letmeask/
-```
-```
-yarn install
-```
-
 
 ## ☕ Usando Letmeask
 
