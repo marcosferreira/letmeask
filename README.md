@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="https://github.com/marcosferreira/letmeask/blob/master/src/assets/images/_homepage.png" alt="Letmeask">
+<img src="https://raw.githubusercontent.com/marcosferreira/letmeask/e947baf89373d44cb2f71d3886c8fc6d2f80e7a1/src/assets/images/_homepage.png" alt="Letmeask">
 
 > The idea of this web application is to help people answer questions from each other during an event.
 
