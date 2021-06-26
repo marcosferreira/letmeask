@@ -80,7 +80,7 @@ export function Room() {
               </span>
             )}
             <Button type="submit" disabled={!user}>
-              Envar Pergunta
+              Enviar Pergunta
             </Button>
           </div>
         </form>
