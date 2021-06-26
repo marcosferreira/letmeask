@@ -23,33 +23,43 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+* Você instalou a versão mais recente de `Git, NodeJS LTS, Yarn`
+* Você tem uma máquina `Windows / Linux / Mac`.
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Letmeask
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+Para instalar o Letmeask , siga estas etapas:
 
 Linux e macOS:
 ```
-<comando_de_instalação>
+git clone https://github.com/marcosferreira/letmeask
+cd letmeask/
+yarn install
 ```
 
 Windows:
 ```
-<comando_de_instalação>
+git clone https://github.com/marcosferreira/letmeask
+cd letmeask/
+yarn install
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ Usando Letmeask
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar Letmeask, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+yarn start
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
+## 🚧 Atenção!
+
+Antes te utilizar o comando `yarn start`, é necessário ter uma conta no <a href="https://console.firebase.google.com/"> Google Firebase </a>
+
+Este projeto utiliza o banco de dados do Firebase conhecido como `Realtime database`.
+
+Ao criar seu banco de dados, será gerado no console do firebase, algumas configurações que deverão ser colocada no arquivo de as vareáveis de ambientes do projeto, será necessário criar este arquivo com o nome `.env.local`. Para isto existe, na raiz do projeto, um arquivo nomeado `.env.example` contendo todos os nomes das vareáveis que o projeto utiliza.
+
 
 ## 📝 Licença
 
