@@ -42,19 +42,36 @@ Linux e macOS:
 ```
 git clone https://github.com/marcosferreira/letmeask
 ```
-```cd letmeask/```
-```yarn install```
+```
+cd letmeask/
+```
+```
+yarn install
+```
+
 
 Windows:
-```git clone https://github.com/marcosferreira/letmeask```
-```cd letmeask/```
-```yarn install```
+
+```
+git clone https://github.com/marcosferreira/letmeask
+```
+```
+cd letmeask/
+```
+```
+yarn install
+```
+
 
 ## ☕ Usando Letmeask
 
 Para usar Letmeask, siga estas etapas:
 
-```yarn start```
+
+```
+yarn start
+```
+
 
 ## 🚧 Atenção!
 
@@ -67,9 +84,17 @@ Ao criar seu banco de dados, será gerado no console do firebase, algumas config
 ## 🚀 Deploy Letmeask
 
 Para fazer deploy do Letmeask, siga as seguintes etapas, de preferência na pasta raiz do projeto:
-```npm install -g firebase-tools ```
-```firebase login```
-```firebase init```
+
+```
+npm install -g firebase-tools
+```
+```
+firebase login
+```
+```
+firebase init
+```
+
 
 ## 📝 Licença
 
