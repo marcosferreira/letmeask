@@ -23,9 +23,9 @@
 O projeto foi desenvolvido na NLW/Together, ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Responsividade
+- [x] Styled Components
 - [ ] Tema dark
 - [ ] Versão PWA
-- [ ] Styled Components
 
 ## 💻 Pré-requisitos
 
