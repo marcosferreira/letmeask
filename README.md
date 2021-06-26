@@ -68,6 +68,14 @@ Este projeto utiliza o banco de dados do Firebase conhecido como `Realtime datab
 
 Ao criar seu banco de dados, será gerado no console do firebase, algumas configurações que deverão ser colocada no arquivo de as vareáveis de ambientes do projeto, será necessário criar este arquivo com o nome `.env.local`. Para isto existe, na raiz do projeto, um arquivo nomeado `.env.example` contendo todos os nomes das vareáveis que o projeto utiliza.
 
+## 🚀 Deploy Letmeask
+
+Para fazer deploy do Letmeask, siga as seguintes etapas, de preferência na pasta raiz do projeto:
+```
+npm install -g firebase-tools
+firebase login
+firebase init
+```
 
 ## 📝 Licença
 
