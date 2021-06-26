@@ -1,14 +1,14 @@
 import { useState, FormEvent } from 'react';
 import { useHistory } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
-import { Button } from '../components/Button';
-import { database } from '../services/firebase';
+import { useAuth } from '../../hooks/useAuth';
+import { Button } from '../../components/Button';
+import { database } from '../../services/firebase';
 
-import IllustrationSVG from '../assets/images/illustration.svg';
-import LogoSVG from '../assets/images/logo.svg';
-import GoogleIconSVG from '../assets/images/google-icon.svg';
+import IllustrationSVG from '../../assets/images/illustration.svg';
+import LogoSVG from '../../assets/images/logo.svg';
+import GoogleIconSVG from '../../assets/images/google-icon.svg';
 
-import '../styles/auth.scss';
+import '../../styles/auth.scss';
 
 export function Home() {
   const history = useHistory();

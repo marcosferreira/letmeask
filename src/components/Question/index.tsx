@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import '../styles/question.scss';
+import { QuestionStyled, QuestionFooter } from './styles';
 
 type QuestionProps = {
   content: String;
@@ -14,15 +14,15 @@ type QuestionProps = {
 
 export function Question({ content, author, isAnswered = false, isHighlighted = false, children }: QuestionProps) {
   return (
-    <div className={`question ${isAnswered ? 'answered' : ''} ${isHighlighted && !isAnswered ? 'highlighted': ''}`}>
+    <QuestionStyled className={`${isAnswered ? 'answered' : ''} ${isHighlighted && !isAnswered ? 'highlighted': ''}`}>
       <p>{content}</p>
-      <footer>
+      <QuestionFooter>
         <div className="user-info">
           <img src={author.avatar} alt={author.name} />
           <span>{author.name}</span>
         </div>
         <div>{children}</div>
-      </footer>
-    </div>
+      </QuestionFooter>
+    </QuestionStyled>
   );
 }
