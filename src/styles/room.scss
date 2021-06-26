@@ -140,3 +140,32 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  main {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  #page-room {
+    header {
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        > div {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+    }
+  }
+
+  .form-footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

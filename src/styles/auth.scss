@@ -140,3 +140,44 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  #page-auth {
+    display: flex;
+    flex-direction: column;
+
+    aside {
+      flex: 1;
+      padding: 120px 20px;
+
+      img {
+        align-self: center;
+        max-width: 320px;
+      }
+
+      strong {
+        align-self: center;
+      }
+
+      p {
+        align-self: center;
+      }
+    }
+
+    main {
+      margin: 20px 0;
+
+      .main-content {
+        padding: 20px 0 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #page-auth aside img {
+    align-self: center;
+    max-width: 150px;
+  }
+
+}
