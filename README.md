@@ -65,7 +65,7 @@ Antes te utilizar o comando `yarn start`, é necessário ter uma conta no <a hre
 
 Este projeto utiliza o banco de dados do Firebase conhecido como `Realtime database`.
 
-Ao criar seu banco de dados, será gerado no console do firebase, algumas configurações que deverão ser colocada no arquivo de as vareáveis de ambientes do projeto, será necessário criar este arquivo com o nome `.env.local`. Para isto existe, na raiz do projeto, um arquivo nomeado `.env.example` contendo todos os nomes das vareáveis que o projeto utiliza.
+Ao criar seu banco de dados, será gerado no console do firebase, algumas configurações que deverão ser colocada no arquivo contendo as vareáveis de ambientes do projeto, será necessário criar este arquivo com o nome `.env.local`. Para isto existe, na raiz do projeto, um arquivo nomeado `.env.example` contendo todos os nomes das vareáveis que o projeto utiliza.
 
 ## 🚀 Deploy Letmeask
 
