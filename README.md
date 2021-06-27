@@ -24,6 +24,7 @@ O projeto foi desenvolvido na NLW/Together, ainda está em desenvolvimento e as 
 
 - [x] Responsividade
 - [x] Styled Components
+- [x] Autorização de acesso no Admin
 - [ ] Tema dark
 - [ ] Versão PWA
 
